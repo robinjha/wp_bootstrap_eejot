@@ -7,10 +7,13 @@
     <meta name="description" content="">
     <meta name="Robin Jha" content="">
 
-    <!-- Le styles -->
+    <!-- Le styles 
     <link href="../assets/css/eejot_ver1.css" rel="stylesheet">
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">-->
+    
+    <!-- Le styles -->
+    <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
     
     <style>
 
@@ -266,6 +269,9 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  
+  <?php wp_enqueue_script("jquery"); ?>
+  <?php wp_head(); ?>
   </head>
 
   <body>
