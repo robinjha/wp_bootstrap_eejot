@@ -41,7 +41,7 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-<div class="bgpattern">
+<!--  <div class="bgpattern">-->
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
@@ -68,7 +68,7 @@
           </div>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
- </div>
+ <!--  </div>-->
 
       <!-- START THE FEATURETTES -->
 
