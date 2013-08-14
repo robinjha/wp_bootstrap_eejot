@@ -26,7 +26,7 @@
           <img src="<?php bloginfo('template_url'); ?>/bootstrap/img/eejot_syllabus.jpeg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Sample Syllabus</h1>
+              <h1>A Sample Syllabus</h1>
               <p class="lead"> Some of the things taught to students at Eejot</p>
             </div>
           </div>
@@ -41,31 +41,34 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
+<div class="bgpattern">
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+          <img class="card" data-src="holder.js/140x140" src="<?php bloginfo('template_url'); ?>/bootstrap/img/eejot_blog1.jpg"><!-- took out img-circle from class and replaced it with card-->
+          <div class="piccontent">
+          <strong>One of Eejot's earlier sessions showing kids a computer using kerosens lamps</strong>
           <p><a class="btn" href="#">View details &raquo;</a></p>
+          </div>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <img class="card" data-src="holder.js/140x140" src="<?php bloginfo('template_url'); ?>/bootstrap/img/eejot_blog2.jpg">
+          <div class="piccontent">
+          <strong>Students taking classes at the newly opened Eejot center</strong>
           <p><a class="btn" href="#">View details &raquo;</a></p>
+          </div>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <img class="card" data-src="holder.js/140x140" src="<?php bloginfo('template_url'); ?>/bootstrap/img/eejot_blog3.jpeg">
+          <div class="piccontent">
+          <strong>Rakesh Kushwaha: Eejot's computer program instructor</strong>
           <p><a class="btn" href="#">View details &raquo;</a></p>
+          </div>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
- 
+ </div>
 
       <!-- START THE FEATURETTES -->
 

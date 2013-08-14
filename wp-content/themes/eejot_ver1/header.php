@@ -121,18 +121,23 @@ body {
   	 font-size: 42px;
   	 font: 25px/1.125 OpenSansRegular,Helvetica,Arial,sans-serif;
   	 text-align:right; */
+  	 color:#888888;    
+	font-variant:small-caps;
+letter-spacing:2px;
 	line-height: 1.25;
 	text-align: right;
 	font-size: 42px;
 	margin: 0px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	font: 28px/1.125 Helvetica Neue, Helvetica, Arial, sans-serif;
+	font: 29px/1.25 Helvetica Neue, Helvetica, Arial, sans-serif;
 	color: rgb(255, 255, 255);
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+	 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .carousel-caption .lead {
+font-variant:small-caps;
 	margin: 0;
 	line-height: 1.25;
 	color: #fff;
@@ -149,6 +154,7 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .span4 {
+	
 	text-align: center;
 }
 
@@ -304,7 +310,7 @@ body {
            
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
-              <a class="logo" href="#"><img src="<?php bloginfo('template_url'); ?>/bootstrap/img/eejot_logo_600x.png" alt="Eejot"></a>
+              <a class="logo" href="http://www.eejot.org"><img src="<?php bloginfo('template_url'); ?>/bootstrap/img/eejot_logo_600x.png" alt="Eejot"></a>
               <ul class="nav push-right">
                 <li class="dropdown">
                 	<a class="dropdown-toggle" href="#" data-toggle="dropdown">ABOUT US</a>

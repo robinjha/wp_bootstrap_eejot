@@ -1,3 +1,35 @@
+.card{
+	min-height: 392px;
+	margin-left: 0px;
+	width:auto;/*another solution is width: 23.5%;*/
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.13);
+	font-size: 13px;
+    line-height: 1.5;
+}
+.piccontent{
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+display: block;
+overflow: hidden;
+padding: 10px 15px;
+cursor: pointer;
+color: rgb(0, 110, 165);
+font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+}
+.label{
+	
+}
+/*<?php bloginfo('template_url'); ?>/bootstrap/img/*/
+.bgpattern{
+	margin-top: -1%;
+	background: url("'../img/patterned_img.jpg'") repeat scroll 50% 0px rgb(237, 237, 237);
+	
+}
+
 .row > *:first-child, .row .no-gutter, .row .row > *:first-child, .row .row .no-gutter {
     margin-left: 0;
 }
