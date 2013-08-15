@@ -69,12 +69,12 @@
         </div><!-- /.span4 -->
       </div><!-- /.row -->
  <!--  </div>-->
-
+ </div><!-- /.container -->
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+  <hr> 
 
-      <div class="featurette">
+      <div class="featurette container">
         <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png">
         <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -90,7 +90,7 @@
 					<input id="QUESTION_STAG_APP_ID" type="hidden" value="" name="QUESTION_STAG_APP_ID">
 					<input id="QUESTION_STAG_APP_REF_ID" type="hidden" value="" name="QUESTION_STAG_APP_REF_ID">
 					<input id="QUESTION_STAG_CTX_TYPE" type="hidden" value="" name="QUESTION_STAG_CTX_TYPE">
-					<input id="ERRORURL" type="hidden" value="http://wwf.worldwildlife.org/site/PageServer?amp;pagename=enews_signup_form" name="ERRORURL">
+					<input id="ERRORURL" type="hidden" value="http://wwf.eejot.org/site/PageServer?amp;pagename=enews_signup_form" name="ERRORURL">
 					<div class="screen-reader">
 					<label for="denySubmit">Spam Control Text:</label>
 					<input id="denySubmit" type="text" alt="This field is used to prevent form submission by scripts." value="" name="denySubmit">
@@ -129,13 +129,13 @@
 					<a class="youtube" data-social-cookie="youtube" data-track-event="Homepages Show|Social Outbound Link Click - Homepages Show|YouTube" href="http://www.youtube.com/wwfus">
 					</li>
 					<li>
-					<a class="google-plus" data-social-cookie="google" data-track-event="Homepages Show|Social Outbound Link Click - Homepages Show|Google\+" href="http://plus.google.com/107924515603459001334/posts">
+					<a class="google-plus" data-social-cookie="google" data-track-event="Homepages Show|Social Outbound Link Click - Homepages Show|Google\+" href="http://www.eejot.org">
 					</li>
 				</ul>
 			</div>
       </div>
-
-      <hr class="featurette-divider">
+ </div>
+ 	<hr>
 
       <!-- /END THE FEATURETTES -->
 

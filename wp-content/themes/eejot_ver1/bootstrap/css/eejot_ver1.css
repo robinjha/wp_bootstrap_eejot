@@ -10,6 +10,74 @@
 	font-size: 13px;
     line-height: 1.5;
 }
+
+#footer{
+	
+	border-top: 1px solid rgb(255, 255, 255);
+	font-size: 12px;
+	margin-top: 20px;	
+	color: rgb(68, 68, 68);
+    font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+}
+}
+
+.footerimage{
+	background: url("../img/logo.png") no-repeat scroll 50% 14px rgb(255, 255, 255);
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+	float: right;
+	height: 110px;
+	width: 84px;
+}
+.footer-gutter{
+	padding-left: 1.53061%;
+	padding-right: 1.53061%;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	color: rgb(68, 68, 68);
+	font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+}
+.footernav {
+	margin-right: 87px;
+	float: left;
+	line-height: 1.83333;
+	margin: 16px 10px 16px 0px;
+	color: rgb(68, 68, 68);
+	font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+	list-style: none outside none;
+	color: rgb(68, 68, 68);
+	display: block;
+	-moz-box-sizing: border-box;
+	word-wrap: break-word;
+	font-size: 100%;
+	padding: 0px;
+}
+
+.footer-gutter .footernav li{
+	display:inline;
+	float: left;
+	margin-right: 30px;
+	color: rgb(68, 68, 68);
+	font: 13px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+}
+
+.footer-gutter .footernav a{
+	color: rgb(68, 68, 68);
+display: block;
+	transition: all 0.25s ease-in-out 0s;
+}
+
+.footwrapper{
+	margin: 0px auto;
+    /*max-width: 1000px;*/
+    -moz-box-sizing: border-box;
+    word-wrap: break-word;
+	color: rgb(68, 68, 68);
+	font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+}
+
+
+
 .piccontent{
 	background: none repeat scroll 0% 0% rgb(0, 0, 0);
 border-bottom-left-radius: 5px;
