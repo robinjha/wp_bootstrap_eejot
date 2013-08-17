@@ -11,7 +11,7 @@
       </footer> -->
       <div class="footer-gutter">
      	<a class="footerimage" href="http://www.eejot.org">
-     		<img src="<?php bloginfo('template_url'); ?>/bootstrap/img/logo.png" alt="Eejot"></a>
+     		<img src="<?php bloginfo('template_url'); ?>/bootstrap/img/logo.png" alt="Eejot"/></a>
       	<ul class="footernav">
       		<li>
       			<a href="http://www.eejot.org/about/volunteer"><strong>Volunteer</strong></a>
@@ -27,32 +27,21 @@
       		</li>
       	</ul>
       	
-      <ul class="footernav footernav-social" style="clear: both;">
-      	<li>
-      		<a class="facebook" href="https://www.facebook.com/groups/eejot">
-      		<span class="social-icon-reader">Facebook</span>
-      		<i class="ico" aria-hidden="true">l</i>
+      <ul id="blah" class="footernav footernav-social" style="clear: both;">
+      	<li><a class="facebook" href="https://www.facebook.com/groups/eejot"><img class="social-icon-reader ico" src="<?php bloginfo('template_url'); ?>/bootstrap/img/facebook-icon.jpg" alt="facebook">
+      	</a></li><li><a class="twitter" href="https://twitter.com/eejot">
+      		<!-- <span class="social-icon-reader">Twitter</span>  -->
+      		<img class="ico social-icon-reader" src="<?php bloginfo('template_url'); ?>/bootstrap/img/twitter-icon.jpg" alt="twitter">
       		</a>
-      	</li>
-      	<li>
+      	</li><li>
       		<a class="youtube" href="http://www.youtube.com/eejotify">
-      		<span class="social-icon-reader">YouTube</span>
-      		<i class="ico" aria-hidden="true">r</i>
+      		<img class="ico social-icon-reader" src="<?php bloginfo('template_url'); ?>/bootstrap/img/youtube-icon.jpg" alt="youtube">
       		</a>
-      	</li>
-      	<li>
-      		<a class="twitter" href="https://twitter.com/eejot">
-      		<span class="social-icon-reader">Twitter</span>
-      		<i class="ico" aria-hidden="true">o</i>
-      		</a>
-      	</li>
-      	<li>
+      	</li><li>
       		<a class="gplus" href="https://www.eejot.org">
-      		<span class="social-icon-reader">Google+</span>
-      		<i class="ico" aria-hidden="true">q</i>
+      		<img class="ico social-icon-reader" src="<?php bloginfo('template_url'); ?>/bootstrap/img/google-icon.jpg" alt="google+">
       		</a>
-      	</li>
-      </ul>
+      	</li></ul>
       <p class="footernav copyright" style="clear:both;">
       	&copy 2013 Eejot.Designed by Robin Jha.
       </p> 

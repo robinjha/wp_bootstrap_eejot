@@ -84,6 +84,12 @@
 	color: rgb(119, 119, 119);
 	height: 32px;
 	width: 32px;
+	
+}
+
+.footernav-social ul li a{
+	vertical-align: top;
+	margin:0 20px 20px 0;
 }
 
 .copyright{
@@ -108,7 +114,7 @@
 
 .footer-gutter .footernav a{
 	color: rgb(68, 68, 68);
-display: block;
+	display: block;
 	transition: all 0.25s ease-in-out 0s;
 }
 
