@@ -92,6 +92,10 @@
 	margin:0 20px 20px 0;
 }
 
+#cse-search-box{
+	top:10px;
+}
+
 .copyright{
 	clear: right;
 	color: rgb(152, 155, 151);

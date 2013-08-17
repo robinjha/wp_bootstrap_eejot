@@ -348,7 +348,7 @@ font-variant:small-caps;
                         </div>
 					
 				</form>
-              
+            
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns 
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
