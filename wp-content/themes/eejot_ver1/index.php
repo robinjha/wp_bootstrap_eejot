@@ -74,37 +74,18 @@
 
   <hr > 
 
-      <div class="featurette container">
-        <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png">
-        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-       -->
+      <div class="container">
        <div class="row gutter-top-in-4">
-			<div class="span3 gutter-horiz-in gutter-bottom-4">
-				<form id="survey_2280" class="gutter-bottom-fixed-3" action="http://wwf.worldwildlife.org/site/Survey" method="post" name="survey_2280">
-					<input id="cons_info_component" type="hidden" value="t" name="cons_info_component">
-					<input id="1566_2280_2_2961_1" type="hidden" value="1126" name="1566_2280_2_2961">
-					<input id="SURVEY_ID" type="hidden" value="2280" name="SURVEY_ID">
-					<input id="USER_HAS_TAKEN" type="hidden" value="null" name="USER_HAS_TAKEN">
-					<input id="SURVEY_IGNORE_ERRORS" type="hidden" value="TRUE" name="SURVEY_IGNORE_ERRORS">
-					<input id="QUESTION_STAG_APP_ID" type="hidden" value="" name="QUESTION_STAG_APP_ID">
-					<input id="QUESTION_STAG_APP_REF_ID" type="hidden" value="" name="QUESTION_STAG_APP_REF_ID">
-					<input id="QUESTION_STAG_CTX_TYPE" type="hidden" value="" name="QUESTION_STAG_CTX_TYPE">
-					<input id="ERRORURL" type="hidden" value="http://wwf.eejot.org/site/PageServer?amp;pagename=enews_signup_form" name="ERRORURL">
-					<div class="screen-reader">
-					<label for="denySubmit">Spam Control Text:</label>
-					<input id="denySubmit" type="text" alt="This field is used to prevent form submission by scripts." value="" name="denySubmit">
-					Please leave this field empty
-					</div>
+			<div id="outer" class="span3 gutter-horiz-in gutter-bottom-4">
+				<form class="gutter-bottom-fixed-3" action="http://www.eejot.org/subscribe" method="post" name="">
 					<label class="block h3 hdr-important gutter-bottom-fixed-1" for="cons_email">Email Signup</label>
-					<div class="form-inline newsletter-form-inline">
+					<div id="inner" class="form-inline newsletter-form-inline">
 						<input id="cons_email" type="text" placeholder="Your Email Address" name="cons_email">
 						<button data-track-event="Homepages Show|Email Signup Submission" name="ACTION_SUBMIT_SURVEY_RESPONSE" type="submit">
-						<span class="screen-reader">Submit</span>
-						<i class="ico" aria-hidden="true">g</i>
+						<img style="border-radius:0px 5px 5px 0px;"; class="ico social-icon-reader" src="<?php bloginfo('template_url'); ?>/bootstrap/img/subscribe.jpg">
 						</button>
 					</div>
-					
+					</form>
 					<div class="gutter-bottom-fixed-3">
 						<h2 class="h3 hdr-important gutter-bottom-fixed-1">Address</h2>
 						<p class="gutter-bottom-fixed-1">
@@ -116,22 +97,8 @@
 						</p>
 				
 					</div>
-				</form>
+				
 
-				<ul class="social-icons contain">
-					<li>
-					<a class="facebook" data-social-cookie="facebook" data-track-event="Homepages Show|Social Outbound Link Click - Homepages Show|Facebook" href="http://www.facebook.com/worldwildlifefund" ></a>
-					</li>
-					<li>
-					<a class="twitter" data-social-cookie="twitter" data-track-event="Homepages Show|Social Outbound Link Click - Homepages Show|Twitter" href="http://twitter.com/world_wildlife">
-					</li>
-					<li>
-					<a class="youtube" data-social-cookie="youtube" data-track-event="Homepages Show|Social Outbound Link Click - Homepages Show|YouTube" href="http://www.youtube.com/wwfus">
-					</li>
-					<li>
-					<a class="google-plus" data-social-cookie="google" data-track-event="Homepages Show|Social Outbound Link Click - Homepages Show|Google\+" href="http://www.eejot.org">
-					</li>
-				</ul>
 			</div>
       </div>
  </div>

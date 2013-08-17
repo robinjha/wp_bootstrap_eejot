@@ -225,24 +225,18 @@ font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
 .form-inline button .ico-search {
     padding-left: 0;
 }
-.form-inline button .ico {
-    color: #FFFFFF;
-    display: block;
-    font-size: 16px;
-    padding-left: 2px;
-    text-align: right;
-}
+
 .ico {
     display: inline-block;
     font: 24px/1 IconsRegular;
     text-transform: none;
-    vertical-align: middle;
+ 
 }
 
 #header .form-inline input {
     border-color: #000000;
     box-shadow: none;
-    height: 30px;
+    height: 27px;
     line-height: 1;
     width: 190px;
 }
@@ -254,7 +248,32 @@ font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
     border-radius: 5px 5px 5px 5px;
     padding: 0 40px 0 9px;
     transition: all 0.25s ease-in-out 0s;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15) inset;
+    height: 35px;
+    padding: 0px 40px 0px 9px;
+    width: 250px;
 }
+
+.form-inline button{
+	background-color: rgb(49, 38, 38);
+	height: 32px;
+	margin-top: -16px;
+	position: absolute;
+	right: -18px;
+	top: 45%;
+	width: 36px;	
+}
+
+
+
+button{
+	border: medium none;
+	overflow: visible;
+	padding: 0px;
+	border-radius: 0px 0px 5px 5px;	
+}
+
 input, select, textarea, button {
     margin: 0;
     font-style: italic;
