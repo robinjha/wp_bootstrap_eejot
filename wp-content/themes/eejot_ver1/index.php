@@ -43,7 +43,7 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 <!--  <div class="bgpattern">-->
     <div class="container marketing">
-
+    
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="span4">
@@ -72,7 +72,7 @@
  </div><!-- /.container -->
       <!-- START THE FEATURETTES -->
 
-  <hr> 
+  <hr > 
 
       <div class="featurette container">
         <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png">
@@ -135,8 +135,7 @@
 			</div>
       </div>
  </div>
- 	<hr>
-
+ 
       <!-- /END THE FEATURETTES -->
 
       

@@ -1,3 +1,5 @@
+
+
 .card{
 	min-height: 392px;
 	margin-left: 0px;
@@ -15,19 +17,23 @@
 	
 	border-top: 1px solid rgb(255, 255, 255);
 	font-size: 12px;
-	margin-top: 20px;	
+	margin-top: 10px;	
+	position:relative;
 	color: rgb(68, 68, 68);
     font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+	top:0px;
+	 left:0px; 
+	 height:100%;overflow:hidden; 
 }
 }
 
-.footerimage{
+.footer-gutter .footerimage{
 	background: url("../img/logo.png") no-repeat scroll 50% 14px rgb(255, 255, 255);
 	border-radius: 10px 10px 10px 10px;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
-	float: right;
+	float: left;
 	height: 110px;
-	width: 84px;
+	width: auto;
 }
 .footer-gutter{
 	padding-left: 1.53061%;
@@ -39,7 +45,7 @@
 }
 .footernav {
 	margin-right: 87px;
-	float: left;
+	float: right;
 	line-height: 1.83333;
 	margin: 16px 10px 16px 0px;
 	color: rgb(68, 68, 68);
@@ -53,9 +59,48 @@
 	padding: 0px;
 }
 
+.footernav-social{
+	float: right;
+	margin: 9px 0px 20px;
+	line-height: 1.83333;
+	list-style: none outside none;
+	color: rgb(68, 68, 68);
+	font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+}
+.facebook{
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	border: 1px solid rgb(232, 232, 232);
+	border-radius: 50% 50% 50% 50%;
+	color: rgb(119, 119, 119);
+	height: 32px;
+	width: 32px;
+	background:url('../img/social-media-icons.jpg') 0 -108px
+}
+
+.footernav-social a{
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	border: 1px solid rgb(232, 232, 232);
+	border-radius: 50% 50% 50% 50%;
+	color: rgb(119, 119, 119);
+	height: 32px;
+	width: 32px;
+}
+
+.copyright{
+	clear: right;
+	color: rgb(152, 155, 151);
+	font: 13px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
+	margin-right: 30px;
+}
+
+ .footernav-social ul{
+	clear: both;
+
+}
+
 .footer-gutter .footernav li{
 	display:inline;
-	float: left;
+	float: right;
 	margin-right: 30px;
 	color: rgb(68, 68, 68);
 	font: 13px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
@@ -69,7 +114,7 @@ display: block;
 
 .footwrapper{
 	margin: 0px auto;
-    /*max-width: 1000px;*/
+    max-width: 1200px;
     -moz-box-sizing: border-box;
     word-wrap: break-word;
 	color: rgb(68, 68, 68);
@@ -94,8 +139,12 @@ font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
 }
 /*<?php bloginfo('template_url'); ?>/bootstrap/img/*/
 .bgpattern{
-	margin-top: -1%;
-	background: url("'../img/patterned_img.jpg'") repeat scroll 50% 0px rgb(237, 237, 237);
+	background: url("../img/patterned_img.jpg") repeat-x scroll 50% 0px transparent;
+	background-size:250%;
+	border-top: 1px solid rgb(255, 255, 255);
+	font-size: 12px;
+	 height:100%;overflow:hidden; 
+    margin-bottom:-4%;
 	
 }
 
