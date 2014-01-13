@@ -396,3 +396,10 @@ em {
 	color: rgb(255, 255, 255);
 	
 }
+.donate-button{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+}

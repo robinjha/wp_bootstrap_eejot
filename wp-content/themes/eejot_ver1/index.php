@@ -77,7 +77,7 @@
 <div class="container">
 	<div class="row gutter-top-in-4">
 		<div class="span3 gutter-horiz-in gutter-bottom-4">
-			<form class="gutter-bottom-fixed-3"
+			<!--  <form class="gutter-bottom-fixed-3"
 				action="http://www.eejot.org/subscribe" method="post" name="">
 				<label class="block h3 hdr-important gutter-bottom-fixed-1"
 					for="cons_email">Email Signup</label>
@@ -91,14 +91,17 @@
 							src="<?php bloginfo('template_url'); ?>/bootstrap/img/subscribe.jpg">
 					</button>
 				</div>
-			</form>
-			<div class="gutter-bottom-fixed-3 address">
+			</form>-->
+			
+			
+			<?php echo do_shortcode('[cscf-contact-form]'); ?>
+			<!-- <div class="gutter-bottom-fixed-3 address">
 				<h2 class="h3 hdr-important gutter-bottom-fixed-1">Address</h2>
 				<p class="gutter-bottom-fixed-1">
 					Eejot <br> Austin, TX <br> USA
 				</p>
 
-			</div>
+			</div>-->
 		</div>
 
 		<div class="posts span6 gutter-horiz-in gutter-bottom-4">
@@ -120,7 +123,7 @@
 		</div>
 		
 		<div class="donation-box" style="margin-left:-10px;" >
-			<h3 class="donation-box-title" style="text-align: center;">MAKE A DONATION</h3>    
+			  <h3 class="donation-box-title" style="text-align: center;">MAKE A DONATION</h3>    
 
                 <h6>Any Contribution will go on a long way!</h6>
 
@@ -392,15 +395,11 @@
                     </select>
 
                     </fieldset>
-
-                  	<button  type="submit">
-						<img 
-							src="<?php bloginfo('template_url'); ?>/bootstrap/img/donation_icon2.jpg">
-							<a style="margin-top:3px;" class="btn" href="#"><strong>SUBMIT &raquo;</strong></a>
-					</button>
-                
+                     <h3 class="donate-button" style="text-align: center;">
+						<?php echo paypalDonationReceive(); ?>
+                  	</h3>
                 <h4 style="position:relative;left:50px;">Sincere Thanks!</h4>
-
+				
 			
 		</div>
 		
