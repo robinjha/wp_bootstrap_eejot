@@ -17,7 +17,7 @@
       			<a href="http://www.eejot.org/about/volunteer"><strong>Volunteer</strong></a>
       		</li>
       		<li>
-      			<a  href="http://www.eejot.org/about/contact"><strong>Contact</strong></a>
+      			<a  href=""><strong>Contact</strong></a>
       		</li>
       		<li>
       			<a  href="http://www.eejot.org/about/news"><strong>News</strong></a>
