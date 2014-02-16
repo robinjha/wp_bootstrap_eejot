@@ -51,7 +51,17 @@
             <div class="nav-collapse collapse">
               <a class="logo" href="http://www.eejot.org"><img src="<?php bloginfo('template_url'); ?>/bootstrap/img/eejot_logo_600x.png" alt="Eejot"></a>
               <ul class="nav push-right">
-                <li class="dropdown">
+              <?php /* Primary navigation */
+				wp_nav_menu( array(
+  				'menu' => 'primary',
+  				'depth' => 2,
+  				'container' => false,
+  				'menu_class' => 'nav nav-collapse collapse',
+  				//Process nav menu using our custom nav walker
+  				'walker' => new wp_bootstrap_navwalker())
+				);
+				?>
+<!--           <li class="dropdown">
                 	<a class="dropdown-toggle" href="#" data-toggle="dropdown">ABOUT US</a>
                 	<ul class="dropdown-menu">
                     	<li><a href="">About Us</a></li>
@@ -73,14 +83,14 @@
                     	<li><a href="#">Current Volunteers</a></li>
                     	<li><a href="#">Other Donations</a></li>
                     </ul>
-                 </li>
+                 </li>-->
                  <li class="dropdown">
                     <a class="dropdown-toggle action action-primary" data-track-event="Homepages Show|Upper Nav Click|Donate"  href="#" data-toggle="dropdown">DONATE</a>
                 	<ul class="dropdown-menu">
                     	<li><a href="#">Action</a></li>
                     	<li><a href="#">Another action</a></li>
                     </ul>
-                </li>
+                </li> 
               
                	<form id="cse-search-box" class="push-right navbar-search" action="/search">
 						 <div class="input-prepend">
@@ -89,20 +99,6 @@
                         </div>
 					
 				</form>
-            
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns 
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="nav-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>-->
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->

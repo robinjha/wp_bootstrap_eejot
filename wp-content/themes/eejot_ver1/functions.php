@@ -6,6 +6,10 @@ add_action( 'after_setup_theme', 'wpt_setup' );
             register_nav_menu( 'primary', __( 'Primary navigation', 'wptuts' ) );
         } endif;
 ?>
+<?php 
+register_nav_menus( array(
+    'primary' => __( 'Primary navigation', 'eejot_ver1' ),
+) );?>
 
 <?php 
 
