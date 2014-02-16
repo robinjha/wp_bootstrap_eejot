@@ -407,13 +407,23 @@ font: 15px/1.6 OpenSansRegular,Helvetica,Arial,sans-serif;
 }
 /*<?php bloginfo('template_url'); ?>/bootstrap/img/*/
 .bgpattern{
-	background: url("../img/patterned_img.jpg") repeat-x scroll 50% 0px transparent;
+	background: url("../img/patterned_img.jpg") repeat;
 	background-size:250%;
 	border-top: 1px solid rgb(255, 255, 255);
 	font-size: 12px;
 	 height:100%;overflow:hidden; 
     margin-bottom:-4%;
-	
+ 
+}
+.divpattern{
+	background: url("../img/patterned_img.jpg") repeat;
+	/*background-size:250%;
+	border-top: 1px solid rgb(255, 255, 255);
+	font-size: 12px;
+	 height:100%;overflow:hidden; 
+    margin-bottom:-4%;*/
+	margin-top: -4%; 
+    margin-bottom:-4%;
 }
 
 .row > *:first-child, .row .no-gutter, .row .row > *:first-child, .row .row .no-gutter {

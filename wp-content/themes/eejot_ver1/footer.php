@@ -2,13 +2,10 @@
  
  <!-- FOOTER -->
  <div class="bgpattern">
+ 	
   <div ><!-- removed class="container" -->
   	<div class="footwrapper ">
-  	 <!--  <span class="footerimage">Eejot</span>--> 
-      <!-- <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer> -->
+  	 
       <div class="footer-gutter">
      	<a class="footerimage" href="http://www.eejot.org">
      		<img src="<?php bloginfo('template_url'); ?>/bootstrap/img/logo.png" alt="Eejot"/></a>

@@ -9,6 +9,9 @@
 
    <!-- Le styles -->
 	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/mystyle.css" media="screen" />
+
+	
     
     <style>
 
@@ -51,22 +54,24 @@
                 <li class="dropdown">
                 	<a class="dropdown-toggle" href="#" data-toggle="dropdown">ABOUT US</a>
                 	<ul class="dropdown-menu">
-                    	<li><a href="#">Action</a></li>
-                    	<li><a href="#">Another action</a></li>
+                    	<li><a href="">About Us</a></li>
+                    	<li><a href="#">Board Members</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">OUR WORK</a>
                 	<ul class="dropdown-menu">
-                    	<li><a href="#">Action</a></li>
-                    	<li><a href="#">Another action</a></li>
+                    	<li><a href="#">Computer Literacy</a></li>
+                    	<li><a href="#">Digital Library</a></li>
+                    	<li><a href="#">OSS Awareness</a></li>
                     </ul>
                  </li>
                  <li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">HOW TO HELP</a>
                 	<ul class="dropdown-menu">
-                    	<li><a href="#">Action</a></li>
-                    	<li><a href="#">Another action</a></li>
+                    	<li><a href="#">Be a Volunteer</a></li>
+                    	<li><a href="#">Current Volunteers</a></li>
+                    	<li><a href="#">Other Donations</a></li>
                     </ul>
                  </li>
                  <li class="dropdown">
@@ -76,7 +81,7 @@
                     	<li><a href="#">Another action</a></li>
                     </ul>
                 </li>
-                
+              
                	<form id="cse-search-box" class="push-right navbar-search" action="/search">
 						 <div class="input-prepend">
                             <span class="add-on"><i class="icon-search"></i></span>
